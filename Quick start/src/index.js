@@ -1,12 +1,13 @@
-// MyApp
+// tictactoe
+
 import { createRoot } from "react-dom/client";
-import  MyApp  from "./App.js";
+import Game from "./components/Game/tictactoe";
 
 
 // clear the existing HTML content
-document.body.innerHTML = '<div id="app"></div>';
+document.body.innerHTML = '<div id="game"></div>';
 
 //Render your React component instead
-const root = createRoot(document.getElementById("app"));
-root.render( <MyApp/>);
+const root = createRoot(document.getElementById("game"));
+root.render(<Game />);
 
