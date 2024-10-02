@@ -2,6 +2,7 @@
 
 import { createRoot } from "react-dom/client";
 import Game from "./components/Game/tictactoe";
+import "./tictactoe.css";
 
 
 // clear the existing HTML content
